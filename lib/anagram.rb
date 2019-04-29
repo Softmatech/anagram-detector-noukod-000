@@ -1,5 +1,5 @@
 # Your code goes here!
-class anagrams
+class Anagram
 
     def match
       
