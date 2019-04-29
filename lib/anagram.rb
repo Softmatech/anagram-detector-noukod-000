@@ -6,9 +6,9 @@ class Anagram
       @word << word
   end
 
-    def match(word_array)
-      word_array.select do |elem|
-          elem.split("").sort = @all.split("").sort
+    def match(words)
+      words.select do |elem|
+          @word.split("").sort = elem.split("").sort
       end
     end
 
