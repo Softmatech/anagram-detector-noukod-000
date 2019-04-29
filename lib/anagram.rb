@@ -4,7 +4,6 @@ class Anagram
   @@all = []
   def initialize(word)
       @all
-
   end
 
     def match(word_array)
